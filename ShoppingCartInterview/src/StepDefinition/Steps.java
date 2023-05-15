@@ -91,11 +91,4 @@ public class Steps{
 		}
     	catch(Exception e) {}
     }
-	
-    @Then("^Close the browser$")					
-    public void Close_the_browser() throws Throwable 							
-    {		
-       driver.close();				
-    }	
-
 }
