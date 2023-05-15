@@ -29,11 +29,6 @@ public class Steps {
 	       driver.get("https://cms.demo.katalon.com/");
 	}	
 	
-    @Given("^Open the Edge and launch the application$")					
-    public void open_the_Edge_and_launch_the_application() throws Throwable							
-    {		
-       					
-    }	
     @Given("^I add four random items to my cart$")
     public void I_add_four_random_items_to_my_cart() throws Throwable							
     {
